@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    font-family: 'Georgia', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero {
+    text-align: center;
+}
+
+.logo {
+    font-size: 7em;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    font-size: 1.1em;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.contact {
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    transition: background 0.3s;
+}
+
+.contact:hover {
+    background-color: #1f1f1f;
+}
